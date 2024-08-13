@@ -1,0 +1,120 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #2c3e50;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #c0392b;
+}
+
+header {
+    background-color: #3498db;
+    padding: 10px 20px;
+}
+
+.NavBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.NavBar a {
+    color: #fff;
+    font-size: 18px;
+}
+
+/* BotCollection Styles */
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.BotList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.BotList article {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    width: 200px;
+    transition: transform 0.2s ease;
+}
+
+.BotList article:hover {
+    transform: scale(1.05);
+}
+
+.BotList img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.BotList button {
+    margin-top: 10px;
+}
+
+/* BotDetail Styles */
+.BotDetail {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.BotDetail img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.BotDetail p {
+    margin: 10px 0;
+}
+
+/* YourBotArmy Styles */
+.BotArmy {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.BotArmy h2 {
+    text-align: center;
+}
+
+.BotArmy .BotCard {
+    margin: 10px;
+}
