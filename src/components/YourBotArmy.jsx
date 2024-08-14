@@ -10,6 +10,7 @@ function YourBotArmy({ bots, clickEvent, clickRemove, deleteBot }) {
     <>
     <h2>BOT ARMY</h2>
     {selectedBot}
+    <div id="army-container"></div>
     </>
   )
 }
